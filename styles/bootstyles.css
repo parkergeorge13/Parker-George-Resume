@@ -1,0 +1,44 @@
+body{
+    background-image: url("../images/GrainyBackground.png");
+}
+.menu {
+    display: flex;
+    border: dashed 3px rgb(143, 141, 139);
+    background-color: rgb(58, 57, 57);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.menu li {
+    text-align: center;
+    padding: 5px 5px;
+    height: 50px;
+    flex-grow: 3;
+    list-style: none;
+}
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: x-large
+}
+.menu li a:hover {
+    font-size: 30px;
+}
+h1 {
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 50px;
+    gap: 50px;
+}
+.grid-item {
+    text-align: center;
+}
+.footer {
+    grid-row: 5;
+    grid-column: 1 / span 2;
+    color: darkgray;
+    margin: 130px;
+
+}

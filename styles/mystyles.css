@@ -1,0 +1,19 @@
+body {
+    background-image: url("../images/GrainyBackground.png"); 
+}
+h6.end {
+    text-align: end;
+}
+h6.pg {
+    font-style: italic;
+}
+img.pic {
+    float: right;
+    padding: 5px;
+    width: 40%;
+}
+img.spartan {
+    float: right;
+    padding: 5px;
+    width: 60%;
+}
